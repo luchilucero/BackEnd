@@ -1,0 +1,84 @@
+package com.portfolio.llf.Entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+
+public class Persona {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    
+    @NotNull
+    @Size(min=1, max=50, message = "no cumple con el tamaño")
+    private String nombre;
+    
+    @NotNull
+    @Size(min=1, max=50, message = "no cumple con el tamaño")
+    private String apellido;
+   
+    @NotNull
+    private String descripción;
+    
+    private String img;
+
+    //Constructor
+
+    public Persona() {
+    }
+
+    public Persona(String nombre, String apellido, String descripción, String img) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.descripción = descripción;
+        this.img = img;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getDescripción() {
+        return descripción;
+    }
+
+    public void setDescripción(String descripción) {
+        this.descripción = descripción;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+    
+}
