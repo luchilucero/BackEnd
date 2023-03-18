@@ -7,9 +7,11 @@ import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Transactional
 @Service
+@CrossOrigin(origins = {"https://frontend-llf.web.app", "http://localhost:4200"})
 public class Shys {
     @Autowired
     Rhys rhys;
