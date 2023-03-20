@@ -43,7 +43,7 @@ public class dtoPersona {
         return descripcion;
     }
 
-    public void setDescripción(String descripcion) {
+    public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
