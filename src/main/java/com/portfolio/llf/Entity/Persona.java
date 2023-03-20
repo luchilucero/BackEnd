@@ -6,8 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import lombok.Getter;
-import lombok.Setter;
 
 @Entity
 
@@ -25,7 +23,7 @@ public class Persona {
     private String apellido;
    
     @NotNull
-    private String descripción;
+    private String descripcion;
     
     private String img;
 
@@ -34,10 +32,10 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String descripción, String img) {
+    public Persona(String nombre, String apellido, String descripcion, String img) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.descripción = descripción;
+        this.descripcion = descripcion;
         this.img = img;
     }
 
@@ -65,12 +63,12 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public String getDescripción() {
-        return descripción;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public void setDescripción(String descripción) {
-        this.descripción = descripción;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
     public String getImg() {
