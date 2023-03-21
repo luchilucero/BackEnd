@@ -8,18 +8,15 @@ public class dtoProyecto {
     private String nombre;
     @NotBlank
     private String descripcion;
-    @NotBlank
-    private String img;
     
     //Constructores 
 
     public dtoProyecto() {
     }
 
-    public dtoProyecto(String nombre, String descripcion, String img) {
+    public dtoProyecto(String nombre, String descripcion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.img = img;
     }
     
     //Getter & Setter
@@ -38,15 +35,6 @@ public class dtoProyecto {
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
-    }
-
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-    
+    }    
     
 }

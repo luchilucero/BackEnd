@@ -22,17 +22,15 @@ public class Proyecto {
     @NotNull
     private String descripcion;
     
-    private String img;
 
     //Constructor
 
     public Proyecto() {
     }
 
-    public Proyecto(String nombre, String descripcion, String img) {
+    public Proyecto(String nombre, String descripcion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.img = img;
     }
 
     //Getter & Setter
@@ -61,14 +59,4 @@ public class Proyecto {
         this.descripcion = descripcion;
     }
 
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-    
-    
-    
 }

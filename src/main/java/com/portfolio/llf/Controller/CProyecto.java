@@ -1,5 +1,7 @@
 package com.portfolio.llf.Controller;
 
+
+
 import com.portfolio.llf.Dto.dtoProyecto;
 import com.portfolio.llf.Entity.Proyecto;
 import com.portfolio.llf.Security.Controller.Mensaje;
@@ -59,7 +61,7 @@ public class CProyecto {
             return new ResponseEntity(new Mensaje("Ese proyecto ya existe"), HttpStatus.BAD_REQUEST);
         }
 
-        Proyecto proyecto = new Proyecto(dtoproyecto.getNombre(), dtoproyecto.getDescripcion(), dtoproyecto.getImg());
+        Proyecto proyecto = new Proyecto(dtoproyecto.getNombre(), dtoproyecto.getDescripcion());
         sProyecto.save(proyecto);
         
         return new ResponseEntity(new Mensaje("Experiencia agregada"), HttpStatus.OK);
@@ -83,7 +85,6 @@ public class CProyecto {
         Proyecto proyecto = sProyecto.getOne(id).get();
         proyecto.setNombre(dtoproyecto.getNombre());
         proyecto.setDescripcion((dtoproyecto.getDescripcion()));
-        proyecto.setImg(dtoproyecto.getImg());
         
         sProyecto.save(proyecto);
         return new ResponseEntity(new Mensaje("Proyecto actualizado"), HttpStatus.OK);
