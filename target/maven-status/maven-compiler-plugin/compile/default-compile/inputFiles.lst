@@ -7,8 +7,10 @@ C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\P
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Dto\dtoEducacion.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Service\ImpPersonaService.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Entity\UsuarioPrincipal.java
+C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Service\SProyecto.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Repository\IRolRepository.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\MainSecurity.java
+C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Repository\RProyecto.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Controller\CEducacion.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Entity\Usuario.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Service\Shys.java
@@ -32,8 +34,11 @@ C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\P
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Repository\IPersonaRepository.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Service\RolService.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Repository\Rhys.java
+C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Entity\Proyecto.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Dto\dtoExperiencia.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Dto\JwtDto.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Controller\AuthController.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Service\SExperiencia.java
+C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Controller\CProyecto.java
 C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Security\Service\UsuarioService.java
+C:\Users\lucer\OneDrive\Escritorio\PROGRAMAR\PROYECTO FINAL\ProyectoIntegrador\ProyectoIntegrador_LucianaLuceroFranco\BackEnd\src\main\java\com\portfolio\llf\Dto\dtoProyecto.java
